@@ -5,12 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,8 +17,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"12+94"
+		"ypos"			"r52"
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
@@ -39,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"25+94"
+		"ypos"					"27+r52"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -61,8 +59,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"25+94"
+		"ypos"					"23+r52"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
@@ -82,9 +80,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"25+94"
 		"ypos_minmode"			"18"
-		"ypos"					"10"
+		"ypos"					"10+r52"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -98,5 +96,16 @@
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontSmall"
+	}
+
+	"KSBar1"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"xpos"				"0"
+		"ypos"				"rs1"
+		"wide"				"p5.04"
+		"tall"				"4"
+		"progress"			"0.20"
+		"variable"			"progresscount"
 	}
 }
